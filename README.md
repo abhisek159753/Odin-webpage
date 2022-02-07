@@ -1,0 +1,1 @@
+This project is for setting up my first website following odin project guide!
