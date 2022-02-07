@@ -1,0 +1,78 @@
+.logo, .content{
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+button, .advert{
+    background-color: #3882F6;
+}
+.logo {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+.main-logo{
+    margin: 15px;
+    font-weight: bolder;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    height: 150px;
+    width: 400px;
+    padding-left: 150px;
+}
+.secondary, .header-logo{
+    font-size: 18px;
+    color:#E5E7EB;
+    
+}
+.header-logo {
+    text-align: right;
+    padding-right: 200px;
+}
+.secondary{
+    height: 200px;
+    width: 300px;
+    padding-left: 150px;
+    
+}
+ul, li {
+    display: inline-block;
+    margin: 10px;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+    
+}
+button{
+    color: #F9FAF8;
+    width: 100px;
+    border-radius:8px;
+}
+img{
+    height: 300px;
+    width:200px;
+}
+.main-img{
+    position: absolute;
+    right: 20%;
+}
+.second-title, .quote{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+.second-title{
+    font-weight: bolder;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+
