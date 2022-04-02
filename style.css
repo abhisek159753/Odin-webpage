@@ -15,11 +15,16 @@ button, .advert{
     margin: 15px;
     font-weight: bolder;
 }
+.content{
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+}
 
 .hero{
     font-size: 48px;
     font-weight: bolder;
-    height: 150px;
+    height: 100px;
     width: 400px;
     padding-left: 150px;
 }
@@ -33,7 +38,7 @@ button, .advert{
     padding-right: 200px;
 }
 .secondary{
-    height: 200px;
+    height: 100px;
     width: 300px;
     padding-left: 150px;
     
@@ -82,18 +87,38 @@ button{
     font-weight: bolder;
 }
 .quote{
+    height: 250px;
     background-color: #E5E7EB;
     font-style: italic;
     font-weight: lighter;
 }
+.advert-cont{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+
+}
 .advert{
     border:2px solid #3882F6;
     border-radius: 5px;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    margin: 50px;
+}
+.action{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+.signup-ad{
+    border: 2px solid white;
+    border-radius: 4px;
     text-align: center;
-    padding: 30px;
-    position: absolute;
-    margin-left: 550px;
-    margin-top: 10px;
+    width: 50px;
+    color: white;
+    display: inline-flex;
 }
 .end{
     text-align: center;
